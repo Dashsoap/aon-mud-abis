@@ -11,7 +11,9 @@ import BuffEffectAddHPCalculateSystem from "../abi/BuffEffectAddHPCalculateSyste
 import BuffEffectKeepResourceOnDeathExecuteSystem from "../abi/BuffEffectKeepResourceOnDeathExecuteSystem.json";
 import BuildTreasureSystem from "../abi/BuildTreasureSystem.json";
 import BulkSetStateSystem from "../abi/BulkSetStateSystem.json";
+import BuyResourceBuildingSystem from "../abi/BuyResourceBuildingSystem.json";
 import ChangeFogSeedSystem from "../abi/ChangeFogSeedSystem.json";
+import ChangeGuildDisplaySystem from "../abi/ChangeGuildDisplaySystem.json";
 import ChangeResourceSeedSystem from "../abi/ChangeResourceSeedSystem.json";
 import ChangeSeedSystem from "../abi/ChangeSeedSystem.json";
 import ChangeTreasureSeedSystem from "../abi/ChangeTreasureSeedSystem.json";
@@ -25,8 +27,16 @@ import DigResourceSystem from "../abi/DigResourceSystem.json";
 import DigResourcev2System from "../abi/DigResourcev2System.json";
 import DonateResourceSystem from "../abi/DonateResourceSystem.json";
 import DonateTreasureSystem from "../abi/DonateTreasureSystem.json";
+import EditGuildSystem from "../abi/EditGuildSystem.json";
 import EncounterFleeSystem from "../abi/EncounterFleeSystem.json";
 import EncounterThrowSystem from "../abi/EncounterThrowSystem.json";
+import GuildBoundTreasureSystem from "../abi/GuildBoundTreasureSystem.json";
+import GuildChargeAirdropTreasureSystem from "../abi/GuildChargeAirdropTreasureSystem.json";
+import GuildChargeLinearTreasureSystem from "../abi/GuildChargeLinearTreasureSystem.json";
+import GuildMoveSystem from "../abi/GuildMoveSystem.json";
+import GuildReleaseAirdropTreasureSystem from "../abi/GuildReleaseAirdropTreasureSystem.json";
+import GuildReleaseLinearTreasureSystem from "../abi/GuildReleaseLinearTreasureSystem.json";
+import GuildUnboundTreasureSystem from "../abi/GuildUnboundTreasureSystem.json";
 import JoinGameSystem from "../abi/JoinGameSystem.json";
 import JoinGamev2System from "../abi/JoinGamev2System.json";
 import JoinGuildSystem from "../abi/JoinGuildSystem.json";
@@ -39,6 +49,9 @@ import PickUpTreasurev2System from "../abi/PickUpTreasurev2System.json";
 import RejectGuildSystem from "../abi/RejectGuildSystem.json";
 import ReleaseAirdropTreasureSystem from "../abi/ReleaseAirdropTreasureSystem.json";
 import ReleaseLinearTreasureSystem from "../abi/ReleaseLinearTreasureSystem.json";
+import ResourceDevSystem from "../abi/ResourceDevSystem.json";
+import SettleResourceBuildingSystem from "../abi/SettleResourceBuildingSystem.json";
+import TakeResourceBuildingSystem from "../abi/TakeResourceBuildingSystem.json";
 import TakeResourceSystem from "../abi/TakeResourceSystem.json";
 import TakeResourcev2System from "../abi/TakeResourcev2System.json";
 import TechAccelerateSystem from "../abi/TechAccelerateSystem.json";
@@ -66,7 +79,9 @@ export const SystemAbis = {
   "system.BuffEffectKeepResourceOnDeathExecute": BuffEffectKeepResourceOnDeathExecuteSystem.abi,
   "system.BuildTreasure": BuildTreasureSystem.abi,
   "system.BulkSetState": BulkSetStateSystem.abi,
+  "system.BuyResourceBuilding": BuyResourceBuildingSystem.abi,
   "system.ChangeFogSeed": ChangeFogSeedSystem.abi,
+  "system.ChangeGuildDisplay": ChangeGuildDisplaySystem.abi,
   "system.ChangeResourceSeed": ChangeResourceSeedSystem.abi,
   "system.ChangeSeed": ChangeSeedSystem.abi,
   "system.ChangeTreasureSeed": ChangeTreasureSeedSystem.abi,
@@ -80,8 +95,16 @@ export const SystemAbis = {
   "system.DigResourcev2": DigResourcev2System.abi,
   "system.DonateResource": DonateResourceSystem.abi,
   "system.DonateTreasure": DonateTreasureSystem.abi,
+  "system.EditGuild": EditGuildSystem.abi,
   "system.EncounterFlee": EncounterFleeSystem.abi,
   "system.EncounterThrow": EncounterThrowSystem.abi,
+  "system.GuildBoundTreasure": GuildBoundTreasureSystem.abi,
+  "system.GuildChargeAirdropTreasure": GuildChargeAirdropTreasureSystem.abi,
+  "system.GuildChargeLinearTreasure": GuildChargeLinearTreasureSystem.abi,
+  "system.GuildMove": GuildMoveSystem.abi,
+  "system.GuildReleaseAirdropTreasure": GuildReleaseAirdropTreasureSystem.abi,
+  "system.GuildReleaseLinearTreasure": GuildReleaseLinearTreasureSystem.abi,
+  "system.GuildUnboundTreasure": GuildUnboundTreasureSystem.abi,
   "system.JoinGame": JoinGameSystem.abi,
   "system.JoinGamev2": JoinGamev2System.abi,
   "system.JoinGuild": JoinGuildSystem.abi,
@@ -94,6 +117,9 @@ export const SystemAbis = {
   "system.RejectGuild": RejectGuildSystem.abi,
   "system.ReleaseAirdropTreasure": ReleaseAirdropTreasureSystem.abi,
   "system.ReleaseLinearTreasure": ReleaseLinearTreasureSystem.abi,
+  "system.ResourceDev": ResourceDevSystem.abi,
+  "system.SettleResourceBuilding": SettleResourceBuildingSystem.abi,
+  "system.TakeResourceBuilding": TakeResourceBuildingSystem.abi,
   "system.TakeResource": TakeResourceSystem.abi,
   "system.TakeResourcev2": TakeResourcev2System.abi,
   "system.TechAccelerate": TechAccelerateSystem.abi,

@@ -1,8 +1,10 @@
-# v0.0.11_treasureEffects_a62d12a
+# v0.0.14_treasureEffects_758a5ee
 
-## 更新：
-1. 将 uint256 类型的输入改为struct 的输入
-2. 新增 RejectGuildSystem 用于拒绝申请
-   world address: 0x0b4e314fcE8DA329c387c94e01eF1dc8378cBaFB
-   initialBlockNumber: 23972404
-   abi tag: v0.0.11_treasureEffects_a62d12a
+1. 添加 ResourceBuildingCountsComponent, ResourceBuildingBoughtComponent
+2. 添加 SettleResourceBuildingSystem
+3. 在 JoinGamev2System 中为玩家设置 ResourceBuildingCounts = 2
+4. 添加 BuyResourceBuildingSystem
+
+world address: 0xccEfe7dba984A03CA7e42333Df44Ff3db16D0851
+initialBlockNumber: 24289543
+abi tag: v0.0.14_treasureEffects_758a5ee
